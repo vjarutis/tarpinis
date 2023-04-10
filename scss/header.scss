@@ -1,0 +1,32 @@
+header {
+    width: 100%;
+    background: rgb(248, 249, 250);
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
+  
+    .header {
+      width: 80%;
+      height: 40px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .sign_in {
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+    }
+  
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }

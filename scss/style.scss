@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+@import 'reset';
+@import 'header';
+@import 'container';
+@import 'content';
+@import 'grid';
+@import 'testimonials';
+@import 'container-1';
+@import 'footer';
+
+body {
+  min-width: 1200px;
+  margin: auto;
+  font-family: Lato;
+  background: rgb(248, 249, 250);
+  color: grey;
+  justify-content: center;
+
+}
+main {
+  min-width: 1200px;
+  margin-top: 40px;
+}
+
+h2 {
+  color: white;
+}

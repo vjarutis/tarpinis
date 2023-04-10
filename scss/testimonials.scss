@@ -1,0 +1,30 @@
+.testimonials {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  
+    h2 {
+      color: black;
+    }
+    
+    p {
+      text-align: center;
+    }
+  
+    section {
+      text-align: center;
+    }
+  
+    @media (max-width: 600px) {
+      height: 800px;
+      flex-direction: column;
+  
+      section {
+        width: 300px;
+      }
+    }
+  }
